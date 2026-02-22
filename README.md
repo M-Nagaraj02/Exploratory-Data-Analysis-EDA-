@@ -35,12 +35,10 @@ import numpy as np
 
 ## Methodology
 **1️⃣ DataFrame Creation**
-
-       * Converted dictionary into Pandas DataFrame
+* Converted dictionary into Pandas DataFrame
 
 **2️⃣ Data Type Conversion**
-
-       * Converted numerical columns from object → numeric
+* Converted numerical columns from object → numeric
 
 Used ``` pd.to_numeric()```
 
@@ -54,9 +52,9 @@ Used ``` pd.to_numeric()```
 **4️⃣ Missing Value Detection**
 
 * Used:
-  ```python 
-     isna().sum()
-     isnull().sum()
+ ```python 
+   isna().sum()
+   isnull().sum()
 ```
 **5️⃣ Handling Missing Values**
 
@@ -82,50 +80,45 @@ pd.to_numeric()
 .isnull()
 .mean()
 .loc[]
+```
 ---
+
 ## Results
 
-Successfully cleaned inconsistent data
+* Successfully cleaned inconsistent data
+* Converted all numeric columns to proper data types
+* Handled missing values properly
+* Treated outliers effectively
+* Final dataset ready for further analysis or modeling
 
-Converted all numeric columns to proper data types
+---
+## Final Cleaned Dataset
 
-Handled missing values properly
+**The dataset after cleaning:**
+* No missing values
+* Correct data types
+* Outliers handled
+* Structured and analysis-ready
 
-Treated outliers effectively
+---
+## Project Structure
 
-Final dataset ready for further analysis or modeling
-
-Final Cleaned Dataset
-
-The dataset after cleaning:
-
-No missing values
-
-Correct data types
-
-Outliers handled
-
-Structured and analysis-ready
-
-Project Structure
 EDA-Project/
-│── EDA_Notebook.ipynb
-│── README.md
-Skills Demonstrated
+* │── EDA_Notebook.ipynb
+* │── README.md
+---
+## Skills Demonstrated
 
-Data Cleaning
+* Data Cleaning
+* Data Preprocessing
+* Handling Missing Values
+* Outlier Detection
+* Pandas Data Manipulation
+* Exploratory Data Analysis
 
-Data Preprocessing
+---
+## Author
 
-Handling Missing Values
+**Nagaraj M**
 
-Outlier Detection
-
-Pandas Data Manipulation
-
-Exploratory Data Analysis
-
-Author
-
-Nagaraj M
 GitHub: https://github.com/M-Nagaraj02
